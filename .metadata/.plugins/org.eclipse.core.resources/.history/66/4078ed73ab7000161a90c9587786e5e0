@@ -1,0 +1,8 @@
+package com.wesring.lab1;
+
+public class Exer1 {
+	public static void main(String[] args){
+		System.out.println("This will caculate the area of a rectangle");
+		
+	}
+}

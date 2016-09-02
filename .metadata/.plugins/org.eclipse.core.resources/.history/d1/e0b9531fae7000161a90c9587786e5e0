@@ -1,0 +1,18 @@
+package com.wesring.lab1;
+
+import java.util.Scanner;
+
+/*
+ * Define: Input scanner
+ * Input
+ * Output speed, with math
+ */
+public class Exer2 {
+	public static void main(String[] args){
+			System.out.println("What is your speed?");
+			System.out.print(">");
+			Scanner input = new Scanner(System.in);
+			
+			System.out.println("Your going " + (input*1.6) + " kph");
+	}
+}
