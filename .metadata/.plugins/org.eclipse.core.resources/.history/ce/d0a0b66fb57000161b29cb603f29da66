@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class TipCalculatorMain {
 	public static void main(String[] args){
-		//Formatting
 		System.out.println("-------Tip Calculator-----");
 		System.out.println("What was the meal cost?");
 		System.out.print(">");

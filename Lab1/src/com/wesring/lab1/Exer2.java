@@ -9,11 +9,13 @@ import java.util.Scanner;
  */
 public class Exer2 {
 	public static void main(String[] args){
-			Scanner input = new Scanner(System.in);
+			Scanner input = new Scanner(System.in);//Make the scanner
 			
-			System.out.println("What is your speed in kph?");
+			System.out.println("What is your speed in kph?");//Formatting
 			System.out.print(">");
 			
-			System.out.println("Your going " + (input.nextInt() * 0.621) + " mph");
+			System.out.println("Your going " + (input.nextInt() * 0.621) + " mph"); //Math and display
+			
+			input.close();//Close the scanner
 	}
 }
