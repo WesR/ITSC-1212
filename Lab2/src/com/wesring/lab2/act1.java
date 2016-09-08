@@ -14,6 +14,7 @@ public class act1 {
 		System.out.println(minutes % 60 + " Current Minutes");//Display current minutes
 		System.out.println(hours + " Hours");//Display hours
 		System.out.println(hours % 24 + " Current Hours");//Display current hours
-		System.out.println("\nThe time is " + (hours % 24) +":"+ (minutes % 60) +":"+ (seconds % 60));//Display current time
+		System.out.println("\nThe time is " + (hours % 24) +":"+ (minutes % 60) +":"+ (seconds % 60) + " GMT");//Display current time
+		System.out.println("\nThe time is " + ((hours % 24) - 5) +":"+ (minutes % 60) +":"+ (seconds % 60) + " EST");//Display current time
 	}
 }
