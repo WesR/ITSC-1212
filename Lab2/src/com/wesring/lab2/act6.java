@@ -2,6 +2,11 @@ package com.wesring.lab2;
 
 import java.util.Scanner;
 
+/*
+ * @Author Wes Ring 
+ * @Version 0.0.1
+ * @Date 9/8/2016
+ */
 public class act6 {
 	public static void main(String[] args){
 		double inputOne, inputTwo;	//Define the vars
