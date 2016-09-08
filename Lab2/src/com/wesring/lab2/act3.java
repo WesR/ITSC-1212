@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @Date 9/8/2016
  */
 public class act3 {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		double inputOne, inputTwo;	//Define the vars
 		Scanner userInput = new Scanner(System.in); //Define the scanner
 		
