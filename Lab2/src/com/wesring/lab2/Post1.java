@@ -19,16 +19,16 @@ public class Post1 {
 		System.out.print("Please input the cost of the car \n>"); //Input Car price
 		carCost = userInput.nextDouble();
 			
-		System.out.println("-----------------------------------");
-		System.out.println("-    Car Sale \n-");
-		
+		System.out.println("-----------------------------------");//Formatting
+		System.out.println("-    Car Sale \n-");//Formatting
 		System.out.println("-    Model: - - - - - - " + carModel);//Output Car Model
 		System.out.println("-    Base Price:  - - - $" + carCost);//Output Initial Cost
 		System.out.println("-    Sales Tax: - - - - 3.6%");//Output Sales Tax
 		System.out.println("-    Member Discount: - 15%");//Output Discount
 		System.out.println("-    Total Price: - - - $" + ((carCost * 1.036) * 0.85));//Output Final price
-		System.out.println("-\n-    Commission:  - - $" + (carCost * 0.10));
-		System.out.println("-\n-----------------------------------");
+		System.out.println("-\n-    Commission:  - - $" + (carCost * 0.10));//Output Commission
+		System.out.println("-\n-----------------------------------");//Formatting
+		
 		userInput.close();//Close the scanner
 	}
 }
