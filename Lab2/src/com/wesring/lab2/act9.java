@@ -12,8 +12,7 @@ public class act9 {
 		System.out.println("Type in the number associated for each answer.");// ERROR
 		System.out.println();
 		System.out.println("How would you describe yourself?");
-		System.out.println("Fun and loud (30), Cute and lazy (10), Calm and Serious (20),\n"
-				+ "Smart and bossy (50), Mean and mysterious (60), or \n" + "Loyal and adventurous (40)"); // ERROR
+		System.out.println("Fun and loud (30), Cute and lazy (10), Calm and Serious (20),\n" + "Smart and bossy (50), Mean and mysterious (60), or \n" + "Loyal and adventurous (40)"); // ERROR
 		tempNum = scan.nextInt();
 		total += tempNum; // ERROR
 		System.out.println();
