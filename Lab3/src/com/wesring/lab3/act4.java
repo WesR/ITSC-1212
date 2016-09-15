@@ -23,5 +23,6 @@ public class act4 {
 		} else {
 			System.out.println("Sorry, " + userYear + " is not a leap year.");//Not leap year
 		}
+		userInput.close();//Close it!
 	}
 }
