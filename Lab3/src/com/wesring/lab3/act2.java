@@ -21,5 +21,6 @@ public class act2 {
 			System.out.println("You get no discount");//just in case
 			break;
 		}
+		userInput.close();//Closing the input
 	}
 }
