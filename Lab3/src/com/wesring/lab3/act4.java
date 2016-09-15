@@ -2,6 +2,11 @@ package com.wesring.lab3;
 
 import java.util.Scanner;
 
+/*
+ * @Author Wes Ring 
+ * @Version 0.0.1
+ * @Date 9/15/2016
+ */
 public class act4 {
 	public static void main(String[] args) {
 		int userYear;

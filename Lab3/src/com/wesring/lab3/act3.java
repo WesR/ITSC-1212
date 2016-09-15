@@ -2,6 +2,11 @@ package com.wesring.lab3;
 
 import java.util.Scanner;
 
+/*
+ * @Author Wes Ring 
+ * @Version 0.0.1
+ * @Date 9/15/2016
+ */
 public class act3 {
 	public static void main(String[] args) {
 		final double salesTax = 1.046; // Define the sales tax
