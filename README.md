@@ -1,9 +1,9 @@
 # ITSC-1212
 ##Why is this here?
 I want a place I can easily get all my work from if somthing happens to my computer.
-I also want to practice writing clean code, the best way I know that is to put it some where people might see it.
+I also want to practice writing clean, well commented code, and the best way I know that is to put it some where people might see it.
 ##What this is not
-A place to just copy work from. If you want to use it as reference to learn go for it. It is not here so you can skip your Java homework. You will never become a better programmer by doing that.
+A place to just copy work from. If you want to use it as reference to learn how to do somthing, go for it. It is not here so you can skip your Java homework. You will never become a better programmer by doing that.
 
 
 ##License 
