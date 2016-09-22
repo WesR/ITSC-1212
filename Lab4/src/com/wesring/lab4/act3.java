@@ -19,7 +19,7 @@ public class act3 {
 		
 		System.out.println("Create user account:");
 		System.out.print("Please input your username \n>"); //Prompt the user
-		userName = userInput.nextLine();
+		userName = userInput.nextLine().toLowerCase();
 		System.out.print("Please input your password \n>"); //Prompt the user
 		userPassword = getHash(userInput.nextLine());//Hashing before saving
 		
@@ -27,7 +27,7 @@ public class act3 {
 		
 		System.out.println("Login user:");
 		System.out.print("\n\nPlease input your username \n>"); //Prompt the user
-		loginName = userInput.nextLine();
+		loginName = userInput.nextLine().toLowerCase();
 		System.out.print("Please input your password \n>"); //Prompt the user
 		loginPassword = getHash(userInput.nextLine());//Hashing before saving
 
