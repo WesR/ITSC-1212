@@ -6,7 +6,7 @@ public class InsideTheTriangle {
 	public static void main(String[] args) {
 		  Scanner userInput = new Scanner(System.in);
 		 
-		  System.out.print("Enter a point's x- and y-coordinates: ");
+		  System.out.print("Enter a point's x and y coordinates: ");
 		  double x = userInput.nextDouble();
 		  double y = userInput.nextDouble();
 		  double y2 = -x / 2 + 100;
