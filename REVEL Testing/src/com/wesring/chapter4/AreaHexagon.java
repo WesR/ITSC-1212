@@ -6,8 +6,8 @@ import java.util.Scanner;
 /*
  * @author Wes Ring 
  * @Version 0.0.1
- * @Date 10//2016
- * Description: 
+ * @Date 10/6/2016
+ * Description: Calculates a hexagons area
  */
 public class AreaHexagon {
 	public static void main(String[] args){
