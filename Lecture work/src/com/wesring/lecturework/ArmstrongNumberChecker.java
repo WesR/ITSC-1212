@@ -7,6 +7,7 @@ import java.util.Scanner;//To get user input
  * @Author Wes Ring 
  * @Version 0.0.1
  * @Date 10/5/2016
+ * Description: This program checks to see if a number entered is an armstrong number
  */
 public class ArmstrongNumberChecker {
 	public static void main(String[] args) {
