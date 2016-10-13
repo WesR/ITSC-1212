@@ -7,6 +7,13 @@ import java.util.Scanner;
  * @Date 10/13/2016
  * 
  * Logic: 
+ * Welcome message
+ * Loop while user hasn't entered 'goodbye'
+ * 		Ask for question
+ * 		Generate random  number
+ * 		pick response from switch with number
+ * 		Output response 
+ * end
  * 
  */
 public class act4 {
