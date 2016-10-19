@@ -10,11 +10,46 @@ import java.util.Scanner;
  */
 public class ProjectFive {
 	public static void main(String[] args){
+		int userLimit;
 		Scanner userInput = new Scanner(System.in); //Define the scanner
 	
-		System.out.println("Please enter a starting number, and then an ending number. (eg 2 - 10 or 5 - 5)");//Prompt
+		System.out.println("Please enter the limiting number");//Prompt
 		System.out.print(">");//Formatting user input
-		int startNum = userInput.nextInt();//Get user Input start
+		userLimit = userInput.nextInt();//Get user Input start
 	
+		System.out.println("Pattern A:"); //Pattern A
+		for(int i = 1; i <= userLimit; i++){
+			for(int k = 1; k <= i; k++){
+				System.out.print(k);
+			}
+			System.out.println();
+		}
+		System.out.println();
+		
+		System.out.println("Pattern B:");//Pattern B
+        for(int i = userLimit; i >= 1; i--) {
+            for(int k = 1; k < i + 1; k++){
+                System.out.print(k);
+            }
+            System.out.println();
+        }
+        System.out.println();
+        
+        System.out.println("Pattern C:");//Pattern C
+		for(int i = 1; i <= userLimit; i++){
+			for(int k = i; k >= 1; k--){
+				System.out.print(k);
+			}
+			System.out.println();
+		}
+		System.out.println();
+		
+		System.out.println("Pattern D:");//Pattern D
+        for(int i = userLimit; i >= 1; i--) {
+            for(int k = 1; k < i + 1; k++){
+                System.out.print(k);
+            }
+            System.out.println();
+        }
 	}
 }
