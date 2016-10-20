@@ -49,15 +49,31 @@ public class act4 {
 			return "Oh! I have a Brother. His name is JAKE";
 		}
 		if (question.toLowerCase().contains("do you like to")){
-			return "I do enjoy" + question.substring(question.toLowerCase().indexOf("do you like to") + 14);
+			return doYouLikeTo(question);
 		}
 		if (question.toLowerCase().contains("do you want to")){
-			return "Sure! Lets" + question.substring(question.toLowerCase().indexOf("do you want to") + 14);
+			return doYouWantTo(question);
 		}
 		if (question.toLowerCase().contains("do you know about")){
-			return "What about" + question.substring(question.toLowerCase().indexOf("do you know about") + 17);
+			return doYouKnowAbout(question);
 		}
 		return randomResponce();
+	}
+	
+	/*
+	 * I was told to move my methods out of the response method. I am sorry it looks so odd
+	 */
+	
+	public static String doYouKnowAbout(String question){
+		return "What about" + question.substring(question.toLowerCase().indexOf("do you know about") + 17);
+	}
+	
+	public static String doYouWantTo(String question){
+		return "Sure! Lets" + question.substring(question.toLowerCase().indexOf("do you want to") + 14);
+	}
+	
+	public static String doYouLikeTo(String question){
+		return "I do enjoy" + question.substring(question.toLowerCase().indexOf("do you like to") + 14);
 	}
 	
 	public static String randomResponce(){
