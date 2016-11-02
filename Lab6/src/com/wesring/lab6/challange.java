@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 
  */
 
-public class act4 {
+public class challange {
 	public static void main(String[] args){
 		String userQuestion;
 		boolean chat = true;
