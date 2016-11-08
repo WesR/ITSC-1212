@@ -3,6 +3,8 @@ package com.wesring.lab6;
 import java.util.Random;
 import java.util.Scanner;
 
+import org.omg.Messaging.SyncScopeHelper;
+
 /*
  * @author Wes Ring 
  * @Version 0.0.1
@@ -25,28 +27,57 @@ public class act3 {
 	}
 	
 	private static String getBelowAverage(int[] userArray) {
-		// TODO Auto-generated method stub
-		return null;
+		String belowAverage = ""; 
+		int arrayAverage = getAverage(userArray);
+		
+		for(int i = 1; i < userArray.length; i++){
+			if (userArray[i] > arrayAverage){
+				belowAverage = belowAverage + " " + userArray[i];
+			}
+		}
+		
+		return belowAverage;
 	}
 
 	private static String getAboveAverage(int[] userArray) {
-		// TODO Auto-generated method stub
-		return null;
+		String aboveAverage = ""; 
+		int arrayAverage = getAverage(userArray);
+		
+		for(int i = 1; i < userArray.length; i++){
+			if (userArray[i] > arrayAverage){
+				aboveAverage = aboveAverage + " " + userArray[i];
+			}
+		}
+		
+		return aboveAverage;
 	}
 
 	private static int getAverage(int[] userArray) {
-		// TODO Auto-generated method stub
-		return null;
+		int arrayTotal = 0;
+		for(int i = 1; i < userArray.length; i++){
+			arrayTotal += userArray[i];
+		}
+		return (arrayTotal / userArray.length);
 	}
 
 	private static int getLowest(int[] userArray) {
-		// TODO Auto-generated method stub
-		return null;
+		int indexLowest = 0;
+		for(int i = 1; i < userArray.length; i++){
+			if (userArray[i] < userArray[indexLowest]){
+				indexLowest = i;
+			}
+		}
+		return userArray[indexLowest];
 	}
 
 	private static int getHighest(int[] userArray) {
-		// TODO Auto-generated method stub
-		return null;
+		int indexHighest = 0;
+		for(int i = 1; i < userArray.length; i++){
+			if (userArray[i] > userArray[indexHighest]){
+				indexHighest = i;
+			}
+		}
+		return userArray[indexHighest];
 	}
 
 	public static int[] fillRandom(int[] arr1){//Fills and array with random values
