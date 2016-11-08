@@ -8,6 +8,43 @@ import java.util.Scanner;
  * @Version 0.0.1
  * @Date 11/7/2016
  * 
+ * 
+ * PsudoCode: (I did a flow chart but Visio decided to crash and delete it, when I was almost done.... I don't want to waste another half hour
+ * Start: main game loop
+ * Display the game rules
+ * 
+ * Generate user card 1, add it it to the total (0)
+ * Generate user card 2, add it to the user total
+ * 
+ * Generate a dealer card, add it to the total
+ * If its under 17, generate another ( Repeat until over)
+ * If it generates an ace, chose 11 unless that would put you over 21
+ * 
+ * Ask the user if they want to generate a new card
+ * If they say Yes, Generate one
+ * When they say yes, enable the score counter statment
+ * 
+ * In the score counter method, if the user is over 21, bust
+ * If the dealer is is over 21, bust
+ * If the user is over the dealer, then they win
+ * Else the dealer wins
+ * 
+ * Display the winner
+ * 
+ * Ask if they want to play again
+ * If true, restart the main loop, else wise say goodbye
+ * 
+ * NOTES:
+ * 
+ * Use a switch statement to match the card value to the human name
+ * 
+ * If the user draws an ace card, ask if they would like it to be a 1 or 11
+ * If they choose 1, make it 1
+ * Else make it 11
+ * 
+ * Again, sorry about the lack of an awesome flow chart. 
+ * It bummed me that all my work was gone, and my time wasted. PsudoCode is harder to read, but quicker to write
+ * 
  **/
 
 public class blackjackMain {
