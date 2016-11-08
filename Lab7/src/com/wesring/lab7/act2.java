@@ -1,4 +1,4 @@
-package com.wesring.lab6;
+package com.wesring.lab7;
 
 import java.util.Random;
 import java.util.Scanner;
