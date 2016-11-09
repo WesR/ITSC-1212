@@ -3,7 +3,7 @@ package com.wesring.lab7;
 import java.util.Arrays;
 import java.util.Random;
 
-/*
+/**
  * @author Wes Ring 
  * @Version 0.0.1
  * @Date 11/3/2016
