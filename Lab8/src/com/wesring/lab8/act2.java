@@ -1,6 +1,5 @@
 package com.wesring.lab8;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -27,9 +26,10 @@ public class act2 {
 	}
 
 	private static void printMultTable(int[][] userTable) {
+		
 		for(int i = 0; i < userTable.length; i++){
 			for(int p = 0; p < userTable[0].length; p++){
-				System.out.print(userTable[i][p] + " ");//Print, then add a space
+				System.out.print(String.format("%1$4s",userTable[i][p]));//Print, with added white space
 			}
 			System.out.println();//Return line
 		}
