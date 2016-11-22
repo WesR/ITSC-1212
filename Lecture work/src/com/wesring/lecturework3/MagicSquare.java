@@ -23,13 +23,23 @@ public class MagicSquare {
 			System.out.println("3. Exit");
 			switch(userInput.nextInt()){
 			case 1:
-				
+				userSquare = enterSquare(userSquare);//Get the user Square
+				if (isMagicSquare(userSquare)){
+					System.out.println("Congrats! You made a Magic Square");
+					System.out.println("You entered: ");
+					displayMagicSquare(userSquare);
+				}
 				break;
 			case 2:
-				
+				do{
+				userSquare = fillMatrix();
+				}while(!isMagicSquare(userSquare));
+				System.out.println("Congrats! You discovered a new Magic Square");
+				System.out.println("We generated: ");
+				displayMagicSquare(userSquare);
 				break;
 			case 3:
-				System.out.println("GoodBye");
+				System.out.println("GoodBye then");
 				break;
 			default:
 				System.out.println("Error, Invalid Input.\nAborting");
@@ -38,6 +48,21 @@ public class MagicSquare {
 		}else{
 			System.out.println("Goodbye");
 		}
+	}
+	
+	
+	public static int[][] enterSquare(int[][] userArray){
+		Scanner userInput = new Scanner(System.in);//A scanner for user input
+		
+		for(int i = 0; i < userArray.length; i++){//Get all the ints
+			for(int p = 0; p < userArray[0].length; p++){
+				System.out.println("Please enter row " + i + " column " + p);
+				userArray[i][p] = userInput.nextInt();
+			}
+		}
+		
+		userInput.close();//Kill the leak
+		return userArray;
 	}
 	
 	public static int sumRows(int[][] userArray){//Returns the sum of the rows if the same, -1 if not
