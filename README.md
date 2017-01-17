@@ -1,4 +1,4 @@
-# ITSC-1212
+# Intro to java Programming
 ##Why is this here?
 I want a place I can easily get all my work from if somthing happens to my computer.
 I also want to practice writing clean, well commented code, and the best way I know that is to put it some where people might see it.
